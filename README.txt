@@ -1,6 +1,7 @@
 Egyptian Real Estate Price Prediction
 
 Dataset: https://www.kaggle.com/datasets/hassankhaled21/egyptian-real-estate-listings 
+CookieCutter Data Science (CCDS): https://cookiecutter-data-science.drivendata.org/
 
 🏠 Egypt Real Estate Listings Dataset
 📌 Overview
