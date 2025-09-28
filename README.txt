@@ -27,7 +27,7 @@ down_payment 	Down payment amount (only available for ~5k listings).
 
 Kaggle Author: Hassan Khaled
 
-Plan
+🪴 Plan
 - Clean data (missing data, standardize columns, etc.)
 - Process data (turn to usd or make another column for usd, etc.)
 	- create a new column that categorizes into a city, suburbs, rural, etc. (maybe)
