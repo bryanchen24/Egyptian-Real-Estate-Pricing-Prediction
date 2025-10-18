@@ -33,6 +33,7 @@ Kaggle Author: Hassan Khaled
 	- create a new column that categorizes into a city, suburbs, rural, etc. (maybe)
 - Train model to predict valuation of real estate on a variety of factors
 
+Sprint 2 Progress Update
 
 
 
