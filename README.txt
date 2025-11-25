@@ -36,5 +36,8 @@ Kaggle Author: Hassan Khaled
 Sprint 2 Progress Update
 I feel that I have accomplished quite a lot in terms of progress towards the final product. I have cleaned the data by standardizing columns, removing extreme outliers, removing odd fields that were due to user-input error, and creating new columns that enhance the analysis as I had to parse some columns in order to work with multiple values in a single column
 
-
+🌳 Sprint 3: The Model
+Plan:
+- Compare various models to determine which model is ideal for this dataset
+- 
 
