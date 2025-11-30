@@ -37,6 +37,12 @@ Sprint 2 Progress Update
 I feel that I have accomplished quite a lot in terms of progress towards the final product. I have cleaned the data by standardizing columns, removing extreme outliers, removing odd fields that were due to user-input error, and creating new columns that enhance the analysis as I had to parse some columns in order to work with multiple values in a single column
 
 🌳 Sprint 3: The Model
+Overview
+- converted 'type' column from string to int (1 through 10) where 1 represented the most frequent type of real estate, and 10 represented the least frequent
+	- removed 4 types of real estate (Roof, Full Floor, Palace, and Whole Building) as they are weird entries
+- converted 'maid_room' column from binary to int (True: 1, False: 0)
+- 
+
 Plan:
 - Compare various models to determine which model is ideal for this dataset
 - 
