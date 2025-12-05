@@ -27,23 +27,30 @@ down_payment 	Down payment amount (only available for ~5k listings).
 
 Kaggle Author: Hassan Khaled
 
-🪴 Plan
+
+🪴 Sprint 2: Data Cleaning and Processing
 - Clean data (missing data, standardize columns, etc.)
 - Process data (turn to usd or make another column for usd, etc.)
 	- create a new column that categorizes into a city, suburbs, rural, etc. (maybe)
 - Train model to predict valuation of real estate on a variety of factors
-
-Sprint 2 Progress Update
 I feel that I have accomplished quite a lot in terms of progress towards the final product. I have cleaned the data by standardizing columns, removing extreme outliers, removing odd fields that were due to user-input error, and creating new columns that enhance the analysis as I had to parse some columns in order to work with multiple values in a single column
 
 🌳 Sprint 3: The Model
-Overview
-- converted 'type' column from string to int (1 through 10) where 1 represented the most frequent type of real estate, and 10 represented the least frequent
-	- removed 4 types of real estate (Roof, Full Floor, Palace, and Whole Building) as they are weird entries
-- converted 'maid_room' column from binary to int (True: 1, False: 0)
-- 
-
 Plan:
 - Compare various models to determine which model is ideal for this dataset
-- 
+- Analyze the strongest features for each model
+- Finetune hyperparameters to find the best parameters 
+- Using test statistics such as MSE, RMSE, and R-Squared score
+
+## Overview
+- Converted 'type' column from string to int (1 through 10) where 1 represented the most frequent type of real estate, and 10 represented the least frequent
+	- removed 4 types of real estate (Roof, Full Floor, Palace, and Whole Building) as they are weird entries
+- Converted 'maid_room' column from binary to int (True: 1, False: 0)
+
+### Validation
+- Hyperparameter Tuning: Grid Search CV and Randomized Search CV
+- K-Fold Cross Validation (10 folds)
+
+
+
 
