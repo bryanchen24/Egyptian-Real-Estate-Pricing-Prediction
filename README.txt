@@ -42,14 +42,21 @@ Plan:
 - Finetune hyperparameters to find the best parameters 
 - Using test statistics such as MSE, RMSE, and R-Squared score
 
-## Overview
+Overview
 - Converted 'type' column from string to int (1 through 10) where 1 represented the most frequent type of real estate, and 10 represented the least frequent
 	- removed 4 types of real estate (Roof, Full Floor, Palace, and Whole Building) as they are weird entries
 - Converted 'maid_room' column from binary to int (True: 1, False: 0)
+- Compared Linear Regression and Random Forest Regression -> Random Forest Regression performed much better, so I proceeded with a Random Forest Regression model
+- Discovered the most important features for the models -> size, type, and bathrooms were the top 3 with size being the most important
+- Converted 'type' variable from string to number, ranked by the occurence in the dataset: apartment, chalet, villa were the top 3 where the apartment type covers around 45% of observations in this dataset
+- Created residual plots to observe train vs test residuals
+- Calculated and plotted learning curve for random forest regression between the train and test set
+- Observed individual predictions vs actual prices -> major errors due to user-errors as the method of data collection relied on user-input
+	- Some prices were way beyond a fair market value due to the data scraping from a real estate site that is similar to ebay where sellers can list at any prices they want
 
-### Validation
+Validation
 - Hyperparameter Tuning: Grid Search CV and Randomized Search CV
-- K-Fold Cross Validation (10 folds)
+- K-Fold Cross Validation (10 folds) -> average of 0.49 R-squraed score
 
 
 
