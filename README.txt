@@ -58,6 +58,10 @@ Validation
 - Hyperparameter Tuning: Grid Search CV and Randomized Search CV
 - K-Fold Cross Validation (10 folds) -> average of 0.49 R-squraed score
 
+Future Concerns
+- Look into the locations feature and condense it down to just the city in order to use it in the regression models
+- Remove extreme prices 
+- Consider Gradient Boosting Trees model for more complex and accurate predictions (risk of overfitting though)
 
 
 
